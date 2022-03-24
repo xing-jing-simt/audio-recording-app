@@ -1,0 +1,22 @@
+<h2>{{title}}</h2>
+<div class="demo1">
+    <button (click)="getRecordingPermission()">
+        <span>Ask device permission</span>
+    </button>
+    <button (click)="startRecordingAudio()">
+        <span>Start recording</span>
+    </button>
+    <button (click)="stopRecordingAudio()">
+        <span>Stop recording</span>
+    </button>
+    <button (click)="uploadAudio()">
+        <span>Upload recording</span>
+    </button>
+    <button (click)="playAudio()">
+        <span>Play last recorded</span>
+    </button>
+</div>
+<div *ngIf="messageService.messages.length">
+  <h2>Console.log</h2>
+  <div *ngFor='let message of messageService.messages'>{{message}}</div>
+</div>

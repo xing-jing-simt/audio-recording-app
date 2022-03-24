@@ -1,0 +1,53 @@
+h2 {
+  color: #152238;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #23395d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo1 {
+  margin: 1em;
+  padding: 0;
+}
+
+.demo1 button {
+  flex: 1;
+  cursor: pointer;
+  position: relative;
+  background-color: #EEE;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: 2em;
+}
+
+.demo1 button:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+  left: .1em;
+}
+
+.demo1 button:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.demo1 button.selected {
+  background-color: black;
+  color: white;
+}
+
+.demo1 button.selected:hover {
+  background-color: #505050;
+  color: white;
+}
+
+.demo1 button.selected:active {
+  background-color: black;
+  color: white;
+}
