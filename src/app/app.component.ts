@@ -21,7 +21,7 @@ const httpOptions = {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Mobile demo test1';
+  title = 'Mobile Demo Test';
   lastRecorded?: RecordingData;
   base64Sound?: string;
   mimeType?: string;

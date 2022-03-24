@@ -1,53 +1,62 @@
-h2 {
-  color: #152238;
-  font-family: Arial, Helvetica, sans-serif;
+h1 {
+  color: steelblue;
+  font-family: Helvetica, sans-serif;
 }
 
 p {
   color: #23395d;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
-.demo1 {
+.displaywrapper {
   margin: 1em;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.demo1 button {
-  flex: 1;
+.consolewrapper {
+  inline-size: 300px;
+  overflow-wrap: break-word;
+}
+
+.displaywrapper button {
   cursor: pointer;
-  position: relative;
-  background-color: #EEE;
+  background-color: aliceblue;
   margin: 10px;
   padding: 10px;
   border-radius: 4px;
-  display: flex;
   align-items: center;
-  height: 2em;
+  text-align: center;
+  flex: 1 1 0;
+  width: 220px;
+  font-weight: bold;
+  font-size: 0.8em;
 }
 
-.demo1 button:hover {
+.displaywrapper button:hover {
   color: #2c3a41;
   background-color: #e6e6e6;
   left: .1em;
 }
 
-.demo1 button:active {
+.displaywrapper button:active {
   background-color: #525252;
   color: #fafafa;
 }
 
-.demo1 button.selected {
+.displaywrapper button.selected {
   background-color: black;
-  color: white;
+  color: aliceblue;
 }
 
-.demo1 button.selected:hover {
+.displaywrapper button.selected:hover {
   background-color: #505050;
-  color: white;
+  color: aliceblue;
 }
 
-.demo1 button.selected:active {
+.displaywrapper button.selected:active {
   background-color: black;
-  color: white;
+  color: aliceblue;
 }
